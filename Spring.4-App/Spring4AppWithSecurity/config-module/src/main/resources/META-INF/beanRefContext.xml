@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+
+	<import resource="classpath*:/META-INF/security-context.xml" />
+	<import resource="classpath*:/META-INF/common-context.xml" />
+	<import resource="classpath*:/META-INF/jpa-context.xml" />
+	<import resource="classpath*:/META-INF/admin-context.xml" />
+	<import resource="classpath*:/META-INF/general-context.xml" />
+	<!-- <import resource="classpath*:/META-INF/jpa-mangodb-context.xml" /> -->
+	
+
+	
+
+</beans>
